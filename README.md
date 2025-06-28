@@ -6,6 +6,17 @@ Proyecto para implementar y probar contratos inteligentes de yield farming en la
 
 Este repositorio contiene una implementación de un sistema de yield farming (agricultura de rendimientos) que permite a los usuarios depositar tokens LP (Liquidity Provider) y recibir recompensas en tokens nativos del proyecto. Utiliza contratos inteligentes desarrollados en Solidity, con despliegues y pruebas gestionados mediante Hardhat y herramientas relacionadas.
 
+## Contratos desplegados en Sepolia
+
+Actualmente existe una versión deployada en la testnet Sepolia con la que puedes interactuar. Las direcciones de los contratos son:
+
+- **DAppToken:** [`0xEfE93A3793B0E9fd662c3c25DbcC0F35cC362019`](https://sepolia.etherscan.io/address/0xEfE93A3793B0E9fd662c3c25DbcC0F35cC362019)
+- **LPToken:** [`0x4d4e862160A36D0ABEe6aa6fc9d752C711387387`](https://sepolia.etherscan.io/address/0x4d4e862160A36D0ABEe6aa6fc9d752C711387387)
+- **TokenFarm:** [`0x47f53E65194cca1dFF488488E82D4E32CEC1A679`](https://sepolia.etherscan.io/address/0x47f53E65194cca1dFF488488E82D4E32CEC1A679)
+
+Puedes utilizar estas direcciones para interactuar con los contratos a través de scripts, frontends o directamente desde Etherscan.
+
+
 
 ## Requisitos previos
 
